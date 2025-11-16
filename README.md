@@ -7,6 +7,24 @@ Kodingan ini bertujuan untuk membuat aplikasi konsol sederhana menggunakan Pytho
 <img width="261" height="921" alt="index" src="https://github.com/user-attachments/assets/2bab64be-9f2e-48bb-b4ca-7cc929d66043" />
 
 ## penjelasan flowchart
+PENJELASAN FLOWCHART
+
+Program dimulai dengan membuat sebuah list kosong untuk menyimpan data.
+Setelah itu, program meminta pengguna untuk memasukkan satu data.
+Data yang dimasukkan kemudian disimpan ke dalam list.
+
+Setelah menyimpan data, program menanyakan kepada pengguna apakah ingin menambahkan data lagi.
+Jika pengguna menjawab “y”, maka program kembali meminta input data baru dan menyimpannya ke list.
+Proses ini akan terus berulang selama pengguna menjawab “y”.
+
+Jika pengguna menjawab “t”, program berhenti meminta input dan langsung menampilkan seluruh data yang sudah terkumpul di dalam list.
+Setelah data ditampilkan, program menghitung nilai akhir berdasarkan tiga komponen:
+
+- nilai tugas (30%),
+- nilai UTS (35%),
+- nilai UAS (35%).
+
+Setelah perhitungan selesai, program menampilkan hasil akhir dan kemudian proses berakhir.
 
 ---
 ## code python (data_mahasiswa.py)
